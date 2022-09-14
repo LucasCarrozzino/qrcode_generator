@@ -2,9 +2,9 @@ import pyqrcode
 import png
 from pyqrcode import QRCode
 
-QRString ='https://www.instagram.com/rgil.guitars/?r=nametag'
+QRString =''#put the link here
 
 url = pyqrcode.create(QRString)
 
-url.png(r'qrinsta.png',scale = 8)
-
+url.png(r'qr.png',scale = 8)
+  #change the name of the archive if you desire 
